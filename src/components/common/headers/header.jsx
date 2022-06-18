@@ -6,9 +6,7 @@ export default function Header() {
 	return (
 		<header className="header">
 			<div className="header-top">
-				<div className="container">
-					<div className="row">
-						<div className="col-12 display-flex justify-content-between">
+						<div className="display-flex justify-content-between">
               <div className="header-left display-flex justify-content-between">
                 <Logo/>
               </div>
@@ -23,8 +21,6 @@ export default function Header() {
                 <Link to="#">Gallery</Link>
               </div>
 						</div>
-					</div>
-				</div>
 			</div>
 		</header>
 	);

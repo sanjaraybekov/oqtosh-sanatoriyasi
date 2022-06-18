@@ -14,11 +14,9 @@ export default function HomePageDefaul() {
 		<>
 			<div className="home-page main">
 				<button className="btn scroll-to-top" onClick={toTop}>
-					<img src="/assets/images/up-arrow.png" alt="top" />
+					<img src="/assets/images/icons/arrow.svg" alt="top" />
 				</button>
-				<div className="home-top">
 					<HomeTopSection />
-				</div>
 			</div>
 		</>
 	);
