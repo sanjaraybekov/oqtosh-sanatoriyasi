@@ -1,3 +1,28 @@
+
+@font-face {
+	font-family: "Roman";
+	src: url("../../fonst/Chronicle\ Display\ Roman.otf") format("opentype");
+}
+@font-face {
+	font-family: "Light-Italic";
+	src: url("../../fonst/Chronicle\ Display\ Light\ Italic.otf")
+		format("opentype");
+}
+
+@font-face {
+	font-family: "Semibold";
+	src: url("../../fonst/Chronicle\ Display\ Semibold.otf") format("opentype");
+}
+@font-face {
+	font-family: "Gilroy-Light";
+	src: url("../../fonst/Gilroy-Light.otf") format("opentype");
+}
+@font-face {
+	font-family: "Gilroy-Bold";
+	src: url("../../fonst/Gilroy-Bold.otf") format("opentype");
+}
+
+
 $primary-color: #2163f7;
 $primary-color-placeholder: #dee6f7;
 $primary-variant: #fbd784;
@@ -11,12 +36,14 @@ $warning: #f2994a;
 $on-primary: #ffffff;
 $on-secondary: #171717;
 $on-background: #171717;
-$on-surface: #696969;
+$on-surface: #585e92;
 $on-error: #ffffff;
 $primary-font-size: 16px;
 $font-roman: "Roman", "sans-serif";
 $font-light-italic: "Light-Italic", "sans-serif";
 $font-semibold: "Semibold", "sans-serif";
+$font-glorybold: "Gilroy-Bold", "sans-serif";
+$font-light: "Gilroy-Light", "sans-serif";
 
 h1,
 h2,
@@ -54,3 +81,5 @@ a {
 span {
 	font-size: 14px;
 }
+
+

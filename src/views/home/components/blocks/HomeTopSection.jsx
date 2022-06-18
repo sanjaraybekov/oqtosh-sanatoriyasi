@@ -15,7 +15,7 @@ export default function HomeTopSection() {
 									<div className="social-links">
 										<p>Bizga qo'shiling</p>
 										<a
-											href="https://instagram.com/"
+											href="https://www.instagram.com/oq_tosh_sanatoriyasi/"
 											rel="noreferrer"
 											target="_blank"
 										>
@@ -25,26 +25,28 @@ export default function HomeTopSection() {
 											/>
 										</a>
 										<a
-											href="https://twitter.com"
+											href="https://t.me/Oqtosh_uz"
 											rel="noreferrer"
 											target="_blank"
 										>
 											<img
-												src="/assets/images/icons/twitter.svg"
-												alt="twitter"
+												src="/assets/images/icons/telegram.svg"
+												alt="telegram"
 											/>
 										</a>
 									</div>
 									<div className="body-content-title">
 										<p>
-											<span>-------</span>A Hiking guide
+											<span>-------</span>Mojizakor tabiat bag'rida
 										</p>
 										<h1>
-											Be prepared for the Mountains and
-											beyond!
+											Mijozlarga yuqori malakali <br />
+											shifokorlar
+											tomonidan xizmat ko'rsatiladigan
+											maskan!
 										</h1>
 										<a href="/" rel="noreffer">
-											Pastga scroll qilish{" "}
+											pastga scroll qilish
 											<img
 												src="/assets/images/icons/arrow.svg"
 												alt="arrow"

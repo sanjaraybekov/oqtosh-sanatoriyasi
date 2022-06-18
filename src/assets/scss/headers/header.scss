@@ -1,24 +1,10 @@
 
-@font-face {
-	font-family: "Roman";
-	src: url("../../fonst/Chronicle\ Display\ Roman.otf") format("opentype");
-}
-@font-face {
-	font-family: "Light-Italic";
-	src: url("../../fonst/Chronicle\ Display\ Light\ Italic.otf") format("opentype");
-}
-
-@font-face {
-	font-family: "Semibold";
-	src: url("../../fonst/Chronicle\ Display\ Semibold.otf") format("opentype");
-}
-
 .header {
 	background: transparent;
 	.header-top {
 		padding: 58px 0;
 		a {
-      font-family: $font-semibold;
+      font-family:$font-glorybold;
       font-weight: 600;
       letter-spacing: 1px;
       color: $surface;
