@@ -1,6 +1,8 @@
 @import "../headers/header.scss";
 @import "../footers/footer.scss";
 @import "../map_location/map_location.scss";
+@import "../home_blocks/home_blocks.scss";
+
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap");
 
 @keyframes fixedHeader {
@@ -47,6 +49,7 @@ a {
 body {
 	margin: 0;
 	padding: 0;
+	overflow: overlay;
 	box-sizing: border-box;
 	font-family: $font-roman;
 	background: $background-color;
@@ -71,6 +74,14 @@ body {
 .display-flex {
 	display: flex;
 	align-items: center;
+}
+.with-pre-line:before {
+	content: "";
+	display: inline-block;
+	margin: 5px 24px 5px 0;
+	width: 72px;
+	height: 2px;
+	background-color: #fbd784;
 }
 .home-page.main {
 	.home-top {

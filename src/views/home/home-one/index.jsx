@@ -1,4 +1,5 @@
 import React from "react";
+import HomeBlocksSection from "../components/blocks/HomeBlocksSection";
 import HomeTopSection from "../components/blocks/HomeTopSection";
 import MapLocation from "../components/blocks/MapLocation";
 
@@ -18,6 +19,7 @@ export default function HomePageDefaul() {
 					<img src="/assets/images/icons/arrow.svg" alt="top" />
 				</button>
 				<HomeTopSection />
+				<HomeBlocksSection/>
 				<MapLocation />
 				
 			</div>

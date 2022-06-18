@@ -1,23 +1,29 @@
-
-.header {
+header {
 	background: transparent;
 	.header-top {
 		padding: 58px 0;
 		a {
-      font-family:$font-glorybold;
-      font-weight: 600;
-      letter-spacing: 1px;
-      color: $surface;
+			font-family: $font-glorybold;
+			font-weight: 600;
+			letter-spacing: 1px;
+			color: $surface;
+		}
+		.header-left,
+		.logo img {
+			width: 80px;
 		}
 		.header-center {
 			a {
 				margin-right: 40px;
-        &:last-child {
-          margin: 0;
-        }
+				&:last-child {
+					margin: 0;
+				}
 			}
 		}
 	}
+}
+.home-header header {
+	display: none;
 }
 @media (max-width: 768px) {
 }

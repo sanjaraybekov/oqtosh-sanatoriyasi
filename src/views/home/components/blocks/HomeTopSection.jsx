@@ -36,14 +36,13 @@ export default function HomeTopSection() {
 										</a>
 									</div>
 									<div className="body-content-title">
-										<p>
-											<span>-------</span>Mojizakor tabiat bag'rida
+										<p className="with-pre-line">
+											Mojizakor tabiat bag'rida
 										</p>
 										<h1>
 											Mijozlarga yuqori malakali <br />
-											shifokorlar
-											tomonidan xizmat ko'rsatiladigan
-											maskan!
+											shifokorlar tomonidan xizmat
+											ko'rsatiladigan maskan!
 										</h1>
 										<a href="/" rel="noreffer">
 											pastga scroll qilish
