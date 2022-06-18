@@ -1,6 +1,4 @@
-export const URL_LIBRARY_API = "https://library.softly.uz/api";
-
-export const URL_LIBRARY = "https://library.softly.uz";
+export const mapApiKey="dcd84327-f073-44cf-881b-034c9c90a363"
 
 export const userTypes = {
 	SET_USER_DATA: "SET_USER_DATA",

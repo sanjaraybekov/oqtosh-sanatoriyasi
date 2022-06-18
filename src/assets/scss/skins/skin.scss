@@ -1,11 +1,6 @@
-@import "../sliders/index.scss";
-@import "../product_card/product_card.scss";
-@import "../menus/categories.scss";
 @import "../headers/header.scss";
 @import "../footers/footer.scss";
-@import "../product_page/product_page.scss";
-@import "../login_page/index.scss";
-@import "../loaders/loaderOne.scss";
+@import "../map_location/map_location.scss";
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap");
 
 @font-face {
@@ -14,7 +9,8 @@
 }
 @font-face {
 	font-family: "Light-Italic";
-	src: url("../../fonst/Chronicle\ Display\ Light\ Italic.otf") format("opentype");
+	src: url("../../fonst/Chronicle\ Display\ Light\ Italic.otf")
+		format("opentype");
 }
 
 @font-face {
@@ -69,7 +65,7 @@ body {
 	box-sizing: border-box;
 	font-family: $font-roman;
 	background: $background-color;
-  letter-spacing: 1px;
+	letter-spacing: 1px;
 	.row {
 		width: 100%;
 		margin: 0 auto;
@@ -108,8 +104,8 @@ body {
 		}
 		.top-content {
 			position: absolute;
-      left: 0;
-      right: 0;
+			left: 0;
+			right: 0;
 			z-index: 2;
 			width: 100%;
 
@@ -117,7 +113,7 @@ body {
 				.body-content {
 					margin-top: 137px;
 					display: flex;
-          width: 100%;
+					width: 100%;
 					align-items: center;
 					.social-links {
 						display: flex;
@@ -138,19 +134,24 @@ body {
 					}
 					.body-content-title {
 						margin: 0 auto;
-            
+
 						h1,
 						a {
 							color: $surface;
-              margin-top: 32px;
-
+							margin-top: 32px;
+              display: flex;
+              align-items: center;
+							img {
+								width: 12px;
+								margin-left: 4px;
+							}
 						}
-            p,
-						span{
-              margin-right: 32px;
-              color: $primary-variant;
-              font-family: $font-light-italic;
-            }
+						p,
+						span {
+							margin-right: 32px;
+							color: $primary-variant;
+							font-family: $font-light-italic;
+						}
 					}
 				}
 			}
@@ -179,7 +180,7 @@ body {
 		background: $primary-color;
 		img {
 			// width: 100%;
-      transform: rotate(180deg);
+			transform: rotate(180deg);
 			filter: brightness(0) invert(1);
 		}
 		transition: 0.2s linear;
@@ -191,7 +192,7 @@ body {
 }
 
 .container {
-	position: relative; 
+	position: relative;
 }
 @media (max-width: 768px) {
 }

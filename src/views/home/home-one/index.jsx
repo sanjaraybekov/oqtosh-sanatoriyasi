@@ -1,5 +1,6 @@
 import React from "react";
 import HomeTopSection from "../components/blocks/HomeTopSection";
+import MapLocation from "../components/blocks/MapLocation";
 
 export default function HomePageDefaul() {
 	function toTop() {
@@ -16,7 +17,9 @@ export default function HomePageDefaul() {
 				<button className="btn scroll-to-top" onClick={toTop}>
 					<img src="/assets/images/icons/arrow.svg" alt="top" />
 				</button>
-					<HomeTopSection />
+				<HomeTopSection />
+				<MapLocation />
+				
 			</div>
 		</>
 	);
