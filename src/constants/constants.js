@@ -1,4 +1,4 @@
-export const mapApiKey="dcd84327-f073-44cf-881b-034c9c90a363"
+export const mapApiKey = "AIzaSyB_TUVDBDcaoyguFO6IPgRSi5h2aRaYVjk";
 
 export const userTypes = {
 	SET_USER_DATA: "SET_USER_DATA",

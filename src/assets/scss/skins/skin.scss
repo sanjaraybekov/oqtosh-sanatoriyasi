@@ -104,6 +104,7 @@ body {
 		}
 		.top-content {
 			position: absolute;
+			padding: 0 20px;
 			left: 0;
 			right: 0;
 			z-index: 2;
@@ -139,8 +140,8 @@ body {
 						a {
 							color: $surface;
 							margin-top: 32px;
-              display: flex;
-              align-items: center;
+							display: flex;
+							align-items: center;
 							img {
 								width: 12px;
 								margin-left: 4px;
@@ -174,19 +175,17 @@ body {
 		right: 100px;
 		bottom: 50px;
 		z-index: 3;
-		border-radius: 50%;
+		border-radius: 3px;
 		width: 60px;
 		height: 60px;
-		background: $primary-color;
+		background: $background-color;
 		img {
-			// width: 100%;
 			transform: rotate(180deg);
-			filter: brightness(0) invert(1);
 		}
 		transition: 0.2s linear;
 		box-shadow: none;
 		&:hover {
-			box-shadow: 0 0 10px rgba($color: $primary-color, $alpha: 1);
+			box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 		}
 	}
 }

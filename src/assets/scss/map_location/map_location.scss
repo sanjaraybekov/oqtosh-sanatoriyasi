@@ -1,5 +1,17 @@
-.map_location{
-    h3{
-        
-    }
+.map-location {
+	h3 {
+		text-align: center;
+		color: $surface;
+		margin: 20px 0;
+        font-family: $font-semibold;
+	}
+	.map {
+        border-radius: 3px;
+        overflow: hidden;
+        .ymaps-2-1-79-map{
+            .ymaps-2-1-79-copyright.ymaps-2-1-79-copyright_logo_no{
+                display: none;
+            }
+        }
+	}
 }
