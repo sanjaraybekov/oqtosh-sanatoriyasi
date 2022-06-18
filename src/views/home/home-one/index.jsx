@@ -1,5 +1,6 @@
 import React from "react";
 import HomeTopSection from "../components/blocks/HomeTopSection";
+import HomeBlocksSection from "../components/blocks/HomeBlocksSection";
 
 export default function HomePageDefaul() {
 	function toTop() {
@@ -18,6 +19,9 @@ export default function HomePageDefaul() {
 				</button>
 				<div className="home-top">
 					<HomeTopSection />
+				</div>
+				<div className="home-blocks">
+					<HomeBlocksSection />
 				</div>
 			</div>
 		</>
