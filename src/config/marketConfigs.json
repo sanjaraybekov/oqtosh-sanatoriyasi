@@ -1,0 +1,15 @@
+{
+	"homeOne": {
+		"config": {
+			"home": 1,
+			"loader": false
+		}
+	},
+
+	"homeTwo": {
+		"config": {			
+			"home": 2,
+			"loader": false
+		}
+	}
+}

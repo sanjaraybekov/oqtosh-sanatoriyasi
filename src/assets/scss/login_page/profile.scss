@@ -1,0 +1,99 @@
+.profile{
+    .user{
+        .user-image{
+            img{
+                width: 100%;
+            }
+            margin-bottom: 20px;
+        }
+        .user-info{
+            text-align: center;
+        }
+    }
+    .profile-menu{
+        margin-top: 20px;
+        ul{
+            .nav-item {
+                margin-bottom: 20px;
+                .nav-link{
+                    padding:16px 10px;
+                    cursor: pointer;
+                    border-radius:16px;
+                    border: 2px solid $primary-color;
+                    font-size: 18px;
+                    color: $on-secondary; 
+                    font-weight: bold;   
+                }
+            }
+            .nav-item.active{
+                .nav-link{
+                    color: $primary-color;
+                }
+            }
+        }
+    }
+    .menu-content{
+        .tab-pane{
+            .dashboard-content{
+                display: flex;
+                flex-direction: column;
+                align-items:center;
+                margin-top: 50px;
+                h3,h2{
+                    margin-bottom: 20px;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 768px){
+    .profile{
+        .user{
+            .user-image{
+                margin: 20px;
+                text-align: center;
+                img{
+                    width: 100px;
+                }
+            }
+        }
+        .profile-menu{
+            margin-top: 20px;
+            ul{
+                display: flex;
+                overflow-y: hidden;
+                overflow-x: auto;
+                justify-content: flex-start;
+                li {
+                    margin-right: 8px;
+                    white-space: nowrap;
+                    &:last-child {
+                        margin-right: 0;
+                    }
+                    .nav-link{
+                        font-size: 14px!important;
+                        padding:8px 10px!important;
+                    }
+                }
+               
+            }
+            ul::-webkit-scrollbar {
+                display: none;
+            }
+        }
+        .menu-content{
+            .tab-pane{
+                .dashboard-content{
+                   text-align: center;
+                    margin-top: 10px;
+                   h2{
+                       font-size: 20px;
+                   }
+                   h3{
+                       font-size: 16px;
+                   }
+                }
+            }
+        }
+    }
+}

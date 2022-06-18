@@ -1,0 +1,128 @@
+#product-modal {
+  animation: modalSlide 0.5s ease-out forwards;
+  transition: 0.3s ease-in-out;
+  position: absolute;
+  left: 0;
+  right: 0;
+  .header {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    h3 {
+      margin-left: 30px;
+      color: $on-secondary;
+    }
+  }
+  .modal-content {
+    border: none;
+    border-radius: 12px;
+  }
+  .book {
+    display: flex;
+    border-top: 1px solid $on-surface;
+    padding: 20px;
+
+    .product-media {
+      max-width: 45%;
+      width: 45%;
+      img {
+        width: 100%;
+      }
+    }
+    .product-info {
+      width: 50%;
+      max-width: 50%;
+      margin-left: 20px;
+      .product-name,
+      .product-count,
+      .about-product,
+      .product-author,
+      .reading-books {
+        h2,
+        h3 {
+          color: $on-secondary;
+        }
+      }
+      .product-name {
+        margin-bottom: 26px;
+      }
+      .reading-books {
+        h3 {
+          margin-bottom: 10px;
+        }
+      }
+      .product-author,
+      .product-count h3 {
+        margin: 8px 0;
+      }
+
+      .product-count {
+        h3 {
+          // margin: 20px 0;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  #product-modal {
+    top: 10%;
+    max-width: 100% !important;
+
+    .modal-content {
+      .header {
+        padding: 10px;
+      }
+      .book {
+        flex-direction: column;
+        align-items: center;
+        .product-media {
+          max-width: 100%;
+          width: 100%;
+          height: 250px;
+          text-align: center;
+          img {
+            width: auto;
+            height: 100%;
+          }
+        }
+        .product-info {
+          max-width: 100%;
+          width: 100%;
+          margin: 0;
+          margin-top: 20px;
+          .product-name {
+            h2 {
+              font-size: 18px;
+            }
+            margin-bottom: 10px;
+          }
+          .product-count,
+          .reading-books,
+          .about-product {
+            h3 {
+              font-size: 14px;
+              margin: 6px 0;
+            }
+          }
+          .product-author {
+            h3 {
+              font-size: 14px;
+              margin: 6px 0;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@keyframes modalSlide {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
