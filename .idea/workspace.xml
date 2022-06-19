@@ -31,8 +31,10 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/media/axmedov/Новый том/projects-copy/REACT/mfmovies",
+    "last_opened_file_path": "/media/axmedov/Новый том/projects-copy/REACT/oqtosh-sanatoriyasi",
     "list.type.of.created.stylesheet": "SCSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
@@ -64,6 +66,7 @@
       <updated>1655628509258</updated>
       <workItem from="1655628510571" duration="9517000" />
       <workItem from="1655654662849" duration="2945000" />
+      <workItem from="1655657666792" duration="2092000" />
     </task>
     <servers />
   </component>
