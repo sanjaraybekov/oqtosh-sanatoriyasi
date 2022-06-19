@@ -7,7 +7,7 @@ export default function MapLocation() {
 			<div className="container">
 				<div className="row">
 					<div className="col-12">
-						<h3 className="title">Bizning manzil</h3>
+						<h1 className="title">Bizning manzil</h1>
 						<div className="map">
 							<YMaps query={{ lang: "en_RU" }}>
 								<Map

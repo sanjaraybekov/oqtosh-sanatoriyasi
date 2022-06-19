@@ -1,9 +1,11 @@
 .map-location {
-	h3 {
+	h1 {
 		text-align: center;
 		color: $surface;
 		margin: 20px 0;
-        font-family: $font-glorybold;
+        font-family: $font-roman;
+        font-weight: normal;
+
 	}
 	.map {
         border-radius: 3px;
