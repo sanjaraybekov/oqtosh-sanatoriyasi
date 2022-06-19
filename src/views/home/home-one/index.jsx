@@ -2,6 +2,7 @@ import React from "react";
 import HomeBlocksSection from "../components/blocks/HomeBlocksSection";
 import HomeTopSection from "../components/blocks/HomeTopSection";
 import MapLocation from "../components/blocks/MapLocation";
+import Slider from "../components/sliders/BigSlider";
 
 export default function HomePageDefaul() {
 	function toTop() {
@@ -19,9 +20,9 @@ export default function HomePageDefaul() {
 					<img src="/assets/images/icons/arrow.svg" alt="top" />
 				</button>
 				<HomeTopSection />
-				<HomeBlocksSection/>
+				<HomeBlocksSection />
+				<Slider />
 				<MapLocation />
-				
 			</div>
 		</>
 	);
