@@ -15,6 +15,7 @@ export default function Header() {
                   <Link to="xizmatlar">Xizmatlar</Link>
                   <Link to="narxlar">Narxlar</Link>
                   <Link to="shifokorlar">Shifokorlar</Link>
+                  <Link to="eslatmalar">Eslatmalar</Link>
                 </div>
               </div>
               <div className="header-right">

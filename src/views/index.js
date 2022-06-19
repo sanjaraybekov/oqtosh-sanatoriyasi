@@ -8,6 +8,7 @@ import Home from "./home";
 import NotFound from "./pages";
 import BizHaqimizda from "./pages/BizHaqimizda";
 import BizningJamoa from "./pages/BizningJamoa";
+import Eslatmalar from "./pages/Eslatmalar";
 import Galereya from "./pages/Galereya";
 import Narxlar from "./pages/Narxlar";
 import Shifokorlar from "./pages/Shifokorlar";
@@ -44,6 +45,7 @@ export default function AppRoot() {
 					<Route path="/narxlar" component={Narxlar}></Route>
 					<Route path="/shifokorlar" component={Shifokorlar}></Route>
 					<Route path="/tibbiyot" component={Tibbiyot}></Route>
+					<Route path="/eslatmalar" component={Eslatmalar}></Route>
 					<Route
 						path="/yotoqxonalar"
 						component={Yotoqxonalar}
