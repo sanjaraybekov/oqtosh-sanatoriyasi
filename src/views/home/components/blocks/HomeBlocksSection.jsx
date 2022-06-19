@@ -40,7 +40,7 @@ export default function HomeBlocksSection() {
 	return (
 		<div className="home-blocks container">
 			{blocksInfo.map((item, index) => (
-				<div className="row home-block">
+				<div className="row home-block" key={index}>
 					<div className="col-1 home-block__index">
 						{(index + 1).toString().padStart(2, "0")}
 					</div>

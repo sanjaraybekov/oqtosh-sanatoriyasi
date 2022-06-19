@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Narxlar() {
 	const image = "/assets/images/oqtosh.jpg";
-	const xizmatlar_list = [
+	const narx_list = [
 		{
 			xizmat: "Mehmonxona xonasini kuniga 3 mahal ovqat bilan ta'minlash. Kuniga 1 to'shak / yotoq",
 			narx: "242 000 so'm",
@@ -66,7 +66,7 @@ export default function Narxlar() {
 	];
 	const izoh =
 		"Izoh: Axborot va kommunikatsiyalarni rivojlantirish vazirligi tizimiga kiruvchi korxonalar xodimlarining hordiq chiqarishini tashkil etish maqsadida preyskurant ishlab chiqilgan. Agar elektr energiyasi, gaz va boshqa moddiy xarajatlar ko'tarilsa, narxlar qayta ko'rib chiqilishi mumkin. Bir yil muddatga shartnoma tuzilib, shu yil 31-dekabrgacha 100% oldindan to‘lov amalga oshirilgan taqdirda, shu yil uchun preyskurant qo‘llaniladi.";
-
+	console.log(narx_list);
 	return (
 		<div>
 			<img src={image} alt="oqtosh" />

@@ -1,10 +1,10 @@
-import React from 'react'
+import React from "react";
 
 export default function Shifokorlar() {
-    const specialist = [  
-        {
-            name: "XO‘JAKELDIYEV BEGZOD ABDUAZIM O'G'LI",
-            imgage:"/assets/images/specialistic/XO'JAKELDIYEV_BEGZOD.png",
+	const specialist = [
+		{
+			name: "XO‘JAKELDIYEV BEGZOD ABDUAZIM O'G'LI",
+			imgage: "/assets/images/specialistic/XO'JAKELDIYEV_BEGZOD.png",
 			specialistic: "Nevropotolog, igloteravt",
 			work_experience: "10 yil",
 			work_graphics: {
@@ -21,8 +21,8 @@ export default function Shifokorlar() {
 		},
 		{
 			name: "MAMAJONOV FARHOD OBIDJANOVICH",
-            specialistic: "Bolalar jarrohi va urologi",
-            imgage:"/assets/images/specialistic/MAMAJONOV_FARHOD.png",
+			specialistic: "Bolalar jarrohi va urologi",
+			imgage: "/assets/images/specialistic/MAMAJONOV_FARHOD.png",
 			work_experience: "36 yil",
 			work_graphics: {
 				dushanba: "Dushanba\n8:00 - 17:00",
@@ -38,8 +38,8 @@ export default function Shifokorlar() {
 		},
 		{
 			name: "ESHIYEVA SHAXLO SHUXRATOVNA",
-            specialistic: "Kardiolog, terapevt",
-            imgage:"/assets/images/specialistic/ESHIYEVA_SHAXLO.png",
+			specialistic: "Kardiolog, terapevt",
+			imgage: "/assets/images/specialistic/ESHIYEVA_SHAXLO.png",
 			work_experience: "25 yil",
 			work_graphics: {
 				dushanba: "Dushanba\n8:00 - 17:00",
@@ -55,8 +55,8 @@ export default function Shifokorlar() {
 		},
 		{
 			name: "NUSRATOV SHERXON AMANOVICH",
-            specialistic: "Stomatolog",
-            imgage:"/assets/images/specialistic/NUSRATOV_SHERXON.jpg",
+			specialistic: "Stomatolog",
+			imgage: "/assets/images/specialistic/NUSRATOV_SHERXON.jpg",
 			work_experience: "8 yil",
 			work_graphics: {
 				dushanba: "Dushanba\n8:00 - 17:00",
@@ -72,8 +72,8 @@ export default function Shifokorlar() {
 		},
 		{
 			name: "YUSUPOVA MATLUBA XURSANOVNA",
-            specialistic: "Akusher-ginekolog",
-            imgage:"/assets/images/specialistic/YUSUPOVA_MATLUBA.jpg",
+			specialistic: "Akusher-ginekolog",
+			imgage: "/assets/images/specialistic/YUSUPOVA_MATLUBA.jpg",
 			work_experience: "36 yil",
 			work_graphics: {
 				dushanba: "Dushanba\n8:00 - 17:00",
@@ -90,8 +90,8 @@ export default function Shifokorlar() {
 		{
 			name: "FAYZIYEV ILHOM BURHONOVICH",
 			specialistic: "Bosh oshpaz",
-            work_experience: undefined,
-            imgage:"/assets/images/specialistic/FAYZIYEV_ILHOM.jpg",
+			work_experience: undefined,
+			imgage: "/assets/images/specialistic/FAYZIYEV_ILHOM.jpg",
 			work_graphics: {
 				dushanba: "Dushanba\n8:00 - 17:00",
 				seshanba: "Seshanba\n8:00 - 17:00",
@@ -106,8 +106,8 @@ export default function Shifokorlar() {
 		},
 		{
 			name: "XOLMURODOV QUVONDIQ RO’ZIMURODOVICH",
-            specialistic: "Renginolog",
-            imgage:"/assets/images/specialistic/XOLMURODOV_QUVONDIQ.jpg",
+			specialistic: "Renginolog",
+			imgage: "/assets/images/specialistic/XOLMURODOV_QUVONDIQ.jpg",
 			work_experience: "15 yil",
 			work_graphics: {
 				dushanba: "Dushanba\n8:00 - 17:00",
@@ -120,11 +120,11 @@ export default function Shifokorlar() {
 			},
 			study: "1997-2004 yillarda Samarqand davlat tibbiyot institutining tibbiyot fakulteti.",
 			degree: "Oliy ma’lumotli renginolog",
-        },
-        {
+		},
+		{
 			name: "DJIYANOVA FAZILAT XUDOYNAZAROVNA",
-            specialistic: "Shifokor laborant",
-            imgage:"/assets/images/specialistic/DJIYANOVA_FAZILAT.jpg",
+			specialistic: "Shifokor laborant",
+			imgage: "/assets/images/specialistic/DJIYANOVA_FAZILAT.jpg",
 			work_experience: "25 yil",
 			work_graphics: {
 				dushanba: "Dushanba\n8:00 - 17:00",
@@ -140,11 +140,7 @@ export default function Shifokorlar() {
 		},
 	];
 
-    
-    
-    return (
-        <div>
-            Shifokorlar
-        </div>
-    )
+	console.log(specialist);
+
+	return <div>Shifokorlar</div>;
 }
