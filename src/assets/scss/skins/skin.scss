@@ -85,7 +85,7 @@ body {
 }
 .home-page.main {
 	.home-top {
-		height: 100vh;
+		height: 105vh;
 		background-position: center center;
 		background-image: url("/assets/images/top-section-bg.jpeg");
 		background-repeat: no-repeat;
@@ -151,10 +151,11 @@ body {
 						}
 						p,
 						span {
+							font-family: $font-light-italic;
 							margin-right: 32px;
 							color: $primary-variant;
 						}
-						p,
+					
 						a {
 							font-family: $font-glorybold;
 							

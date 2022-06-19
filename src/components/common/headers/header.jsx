@@ -12,9 +12,9 @@ export default function Header() {
               </div>
               <div className="header-center">
                 <div className="header-nav">
-                  <Link to="bizning-jamoa">Bizning jamoa</Link>
                   <Link to="xizmatlar">Xizmatlar</Link>
-                  <Link to="biz-haqimizda">Biz Haqimizda</Link>
+                  <Link to="narxlar">Narxlar</Link>
+                  <Link to="shifokorlar">Shifokorlar</Link>
                 </div>
               </div>
               <div className="header-right">
