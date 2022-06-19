@@ -16,7 +16,7 @@ const blocksInfo = [
 		content:
 			"Oqtosh sanatoriyasi tog’-iqlimiy kurort bo’lib, sihatgohning hududi keng bargli o’rmonzorlar bilan o’ralgan bo’lib, undan Oqtosh va Ayubsoy tog’ daryolari oqib o’tadi. Davolanuvchilar toza mussaffo tog’ havosidan bahra olish bilan birga, betakror go’zal tog’ manzaralarini tomosha qilib, sayr qilishlari mumkin.",
 		image: "/assets/images/blocks/block2.jpeg",
-		link: "/",
+		link: "/tabiat",
 	},
 	{
 		miniTitle: "Boshlash",
@@ -24,7 +24,7 @@ const blocksInfo = [
 		content:
 			"Sanatoriyaning yotoqxonalari shinam va ozoda bo’lib, barcha qulayliklarga ega. Bir va ikki kishilik yotoqxonalari ham mavjud. Bu yerda, shaharning shovqinidan uzoqda, ajoyib tog’lar fonida siz o’zingizni chinakam qulay his qilishingiz mumkin.",
 		image: "/assets/images/blocks/block3.jpeg",
-		link: "/",
+		link: "/yotoqxonalar",
 	},
 	{
 		miniTitle: "Boshlash",
@@ -32,7 +32,7 @@ const blocksInfo = [
 		content:
 			"Sanatoriyada tashxis qo’yish uchun EKG, ultratovush, spirometriya, klinik va biokimyoviy laboratoriya kabi zamonaviy diagnostika vositalari qo’llaniladi. Terapevtik omil: toza tog’ havosi, tog’ daryolaridan tabiiy gidroizlanish – bularning barchasi dam oluvchilarning o’ziga xos bo’lmagan etiologiyali nafas yo’llari kasalliklari bilan tiklanishiga foydali ta’sir ko’rsatadi.",
 		image: "/assets/images/blocks/block4.jpg",
-		link: "/",
+		link: "/tibbiyot",
 	},
 ];
 

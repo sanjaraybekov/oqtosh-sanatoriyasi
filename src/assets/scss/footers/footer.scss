@@ -15,20 +15,32 @@
 				margin-top: 24px;
 				color: $surface;
 				letter-spacing: 1px;
-        font-family: $font-glorybold;
+				font-family: $font-glorybold;
 			}
 		}
 		span {
 			padding-top: 120px;
 			color: $surface;
-      font-family: $font-light;
-      opacity: 0.5;
-      display: block;
-    }
-    .menu-title{
-      color: $primary-variant;
-      font-family: $font-glorybold;
-    }
+			font-family: $font-light;
+			opacity: 0.5;
+			display: block;
+		}
+		.menu-title {
+			color: $primary-variant;
+			font-family: $font-glorybold;
+		}
+		a {
+			color: $surface;
+			display: block;
+			margin-top: 20px;
+			font-family: $font-light;
+			img{
+				filter: brightness(0) invert(1);
+				width: 20px;
+				margin-right: 8px;
+				
+			}
+		}
 	}
 }
 .mobile-footer {
